@@ -1,0 +1,72 @@
+body {
+  background-color: rgba(57, 56, 56, 0.913);
+  
+}
+#stoplight {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#title {
+  width: 150px;
+  height: 150px;
+  background: black
+}
+.pole {
+  width: 50px;
+  height: 150px;
+  background-color: rgb(36, 36, 36);
+  margin-left: auto;
+  margin-right: auto;
+}
+.lightbox {
+  width: 200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 17px;
+background-color: rgb(36, 36, 36);
+}
+.redlight {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: rgb(138, 0, 0);
+  border-radius: 50%;
+  background-image: url(/pattern-dots.png);
+  background-size: contain;
+}
+.redlight:hover {
+  box-shadow: 0 0 100px;
+  background-color: #ff2e2e;
+}
+.yellowlight {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(193, 176, 0);
+  border-radius: 50%;
+  margin-top: 17px;
+  background-image: url(/pattern-dots.png);
+  background-size: contain;
+}
+.yellowlight:hover {
+  box-shadow: 0 0 100px;
+  background-color: rgb(252, 252, 37);
+}
+.greenlight {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(7, 116, 7);
+  border-radius: 50%;
+  margin-top: 17px;
+  background-image: url(/pattern-dots.png);
+  background-size: contain;
+}
+.greenlight:hover {
+  box-shadow: 0 0 100px;
+  background-color: rgb(34, 255, 22);
+}
